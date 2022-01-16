@@ -1,0 +1,6 @@
+2021-10-19T10:28:13.869+0800	INFO	logger/logger.go:43	init logger success
+2021-10-19T10:33:44.129+0800	INFO	logger/logger.go:43	init logger success
+2021-10-19T12:40:52.625+0800	INFO	logger/logger.go:43	init logger success
+2021-10-19T12:44:48.816+0800	INFO	logger/logger.go:43	init logger success
+2021-10-19T12:52:06.440+0800	INFO	logger/logger.go:43	init logger success
+2021-10-19T12:53:56.982+0800	INFO	logger/logger.go:43	init logger success

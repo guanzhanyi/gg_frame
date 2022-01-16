@@ -1,0 +1,39 @@
+app:
+name: "bluebell"
+mode: "dev"
+port: 8080
+start_time: 2020-01-01
+machine_id: 1
+JwtKey: guanzhanyi
+auth:
+  jwt_expire: 8760
+
+
+log:
+  level: "debug"
+  filename: "bluebell.log"
+  max_size: 200
+  max_age: 30
+  max_backups: 7
+
+mysql:
+  host: "39.107.76.100"
+  port: 3306
+  user: "root"
+  password: "yourpassword"
+  db_name: "bluebell"
+  max_open_conns: 200
+  max_idle_conns: 50
+
+redis:
+  host: "39.107.76.100"
+  port: 6379
+  password: ""
+  db: 0
+  pool_size: 100
+
+OSS:
+  access_key: "cN-OntnKby0f01vHp6ZyZwSEYD2SrQxeeiJurCiJ"
+  secret_key: "_59KWPvcqwIVEvyAAskCkOh62YqlDtaXHgWwcasW"
+  bucket: "guanzhanyi"
+  server_addr: "http://r1bt8bhx6.hn-bkt.clouddn.com"
